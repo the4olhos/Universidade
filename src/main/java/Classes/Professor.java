@@ -24,8 +24,7 @@ public class Professor extends Pessoa {
         System.out.println("________________________________________" +
                 "\nProfessor: " + this.getNome() +
                 "\nCPF: " + this.getCpf() +
-                "\nDepartamento: " + this.getDepartamento() +
-                "\n________________________________________");
+                "\nDepartamento: " + this.getDepartamento());
 
             System.out.println("Alunos Orientados:");
             for (Aluno aluno : alunosOrientados) {
@@ -37,11 +36,6 @@ public class Professor extends Pessoa {
     public void adicionarAluno(Aluno aluno) {
         alunosOrientados.add(aluno);
         aluno.setOrientador(this);
-    }
-
-    //Metodos Acessores
-    public String getDepartamento() {
-        return departamento;
     }
 }
 

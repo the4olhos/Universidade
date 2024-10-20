@@ -14,7 +14,8 @@ public class Departamento {
 
     //Metodo para exibir o nome e os professores desse departamento
     public void exibirDados() {
-        System.out.println("Departamento: " + nome);
+        System.out.println("________________________________________" +
+            "\nDepartamento: " + nome);
         for (Professor prof : professores) {
             prof.exibirDados();
         }

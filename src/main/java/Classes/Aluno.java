@@ -25,10 +25,4 @@ public class Aluno extends Pessoa {
     public void setOrientador(Professor orientador) {
         this.orientador = orientador;
     }
-    //Metodos Acessores
-    public String getMatricula() {
-        return matricula;
-    }
-
-
 }
