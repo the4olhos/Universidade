@@ -32,6 +32,10 @@ public class Professor extends Pessoa {
         }
     }
 
+    private String getDepartamento() {
+        return this.departamento;
+    }
+
     //Metodo para adicionar alunos orientados por esse professor
     public void adicionarAluno(Aluno aluno) {
         alunosOrientados.add(aluno);
